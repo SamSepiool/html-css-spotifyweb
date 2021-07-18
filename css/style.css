@@ -6,10 +6,7 @@
 }
 
 /* DEBUG */
-.playlist,
-.user,
-aside,
-header{
+.playlist{
     border: 1px solid red;
 }
 
@@ -29,8 +26,11 @@ body{
     border: 1px solid white;
     padding: 15px 25px;
 }
-
-
+/* FONT */
+h2{
+    color: white;
+    margin-bottom: 15px;
+}
 /* main */
 main{
     height: calc(100vh - 100px);
@@ -40,7 +40,7 @@ main{
 aside{
     width: 300px;
     background-color: #000000;
-    padding: 10px;   
+    padding: 10px;  
 }
 
 .logo{
@@ -90,9 +90,13 @@ header{
     color: inherit;
 }
 
+section h2,
+section h5{
+    margin-left: 10px;
+}
+
 .piano-albums{
     width: 100%;
-    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -110,6 +114,9 @@ header{
     padding: 10px 0px;
 }
 
+.circle img{
+    border-radius: 50%;
+}
 
 
 /* footer */
