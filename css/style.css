@@ -8,7 +8,6 @@
 /* DEBUG */
 .playlist,
 .user,
-nav,
 aside,
 header{
     border: 1px solid red;
@@ -66,8 +65,9 @@ aside ul li a{
 
 
 .app-box{
-    background-color: brown;
+    background-color: #141922;
     width: 100%;
+    overflow-y: auto;
 }
 /* APP-BOX */
 header{
@@ -77,6 +77,39 @@ header{
     background-color: #080b12;
     padding: 20px 25px 25px 0px;
 }
+.nav-albums{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+.nav-albums ul li{
+    display: inline-block;
+    
+}
+.nav-albums a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.piano-albums{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.album{
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    text-align: center;
+}
+.canvas-album img{
+    width: 100%;
+}
+
+.album-title{
+    color: white;
+    padding: 10px 0px;
+}
+
 
 
 /* footer */
