@@ -1,0 +1,86 @@
+/* resert */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+.playlist,
+.user,
+nav,
+aside,
+header{
+    border: 1px solid red;
+}
+
+
+
+
+
+/* common */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #a3a3a3;
+}
+.btn{
+    color: white;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 25px;
+}
+
+
+/* main */
+main{
+    height: calc(100vh - 100px);
+    display: flex;
+}
+/* ASIDE */
+aside{
+    width: 300px;
+    background-color: #000000;
+    padding: 10px;   
+}
+
+.logo{
+    padding-bottom: 20px; 
+}
+
+aside .logo img{
+    width: 80%;
+    
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.playlist{
+    height: calc(100% - 240px);
+    overflow-y: auto;
+    margin: 30px 0px;
+}
+
+
+.app-box{
+    background-color: brown;
+    width: 100%;
+}
+/* APP-BOX */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #080b12;
+    padding: 20px 25px 25px 0px;
+}
+
+
+/* footer */
+footer{
+    height: 100px;
+    background-color: blueviolet;
+}
